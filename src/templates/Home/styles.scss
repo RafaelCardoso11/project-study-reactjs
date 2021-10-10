@@ -1,0 +1,14 @@
+@import '../../colors/index.scss';
+.container {
+  background-color: $backgroud-color-primary;
+  padding: 30px;
+
+  .notPostsText {
+    font-size: 2rem;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
